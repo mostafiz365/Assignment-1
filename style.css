@@ -135,3 +135,41 @@ nav ul a{
     line-height: 20px;
     color: #627382;
 }
+
+#solution{
+    padding: 120px;
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    align-items: center;
+}
+#solution img{
+    width: 600px;
+    height: 600px;
+}
+.content h5{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #469165;
+}
+.content h3{
+    font-size: 48px;
+    font-weight: 700;
+    margin: 16px 0;
+    color: #001931;
+}
+.content p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 40px;
+}
+.content ul li{
+    list-style: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #001931;
+    margin-bottom: 16px;
+    
+}
