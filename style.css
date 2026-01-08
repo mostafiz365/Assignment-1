@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* shared css */
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.btn{
+    background-color: #469165;
+    padding: 12px 16px;
+    border-radius: 4px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+/* main css */
+nav{
+    width: 85%;
+    max-width: 1360px;
+    margin: 16px auto;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 32px;
+    align-items: center;
+}
+nav ul a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+}
+#banner{
+    background-image: url(./assets/hero-bg.png);
+    width: 100%;
+    text-align: center;
+    padding: 70px 120px 134px;
+}
+.banner-content .btn-2{
+    background-color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    color: #469165;
+    border: none;
+    border-radius: 1000px;
+    padding: 8px 12px;
+    margin-bottom: 16px;
+}
+
+.banner-content h1{
+    max-width: 770px;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 84px;
+    color: #FFFFFF;
+    margin: 16px auto;
+
+}
+.banner-content h1 span{
+    color: #30B868;
+}
+
+.banner-content p{
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    max-width: 680px;
+    margin: 0 auto 32px;
+}
+#banner .btn-3{
+    background-color: #ffffff00;
+    padding: 12px 16px;
+    border-radius: 4px;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+#card{
+    padding: 120px 120px;
+}
+#card .card-heading{
+    max-width: 1360px;
+    margin: 0 auto;
+    text-align: center;
+}
+#card .card-heading h3{
+    font-size: 48px;
+    font-weight: 700;
+    color: #001931;
+    margin-bottom: 16px;
+}
+#card .card-heading p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+}
+
+#card .card-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin-top: 44px;
+}
+.card-section .main-card {
+    padding: 24px;
+    max-width: 322px;
+    box-shadow: 0 0 8px 0 #00000007;
+    text-align: center;
+    border-radius: 8px;
+}
+.main-card img{
+    background-color: #F95555;
+    border-radius: 30px;
+    padding: 10px;
+}
+.main-card h4{
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+    margin: 16px;
+}
+.main-card p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+}
