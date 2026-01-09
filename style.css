@@ -136,16 +136,13 @@ nav ul a{
     color: #627382;
 }
 
+
 #solution{
     padding: 120px;
     display: flex;
     justify-content: space-between;
     gap: 60px;
     align-items: center;
-}
-#solution img{
-    width: 600px;
-    height: 600px;
 }
 .content h5{
     font-size: 16px;
@@ -165,14 +162,22 @@ nav ul a{
     color: #627382;
     margin-bottom: 40px;
 }
-.content ul li{
-    list-style: none;
+.content div{
+    margin-bottom: 16px;
+}
+.content div img{
+    margin-right: 6px;
+}
+.content div img span{
     font-size: 16px;
     font-weight: 500;
+    line-height: 20px;
     color: #001931;
-    margin-bottom: 16px;
-    
 }
+
+
+
+
 
 #early-access{
     padding: 0 120px 120px;
@@ -222,6 +227,18 @@ footer{
     color: #FAFAFA;
     text-align: center;
 }
+.footer-social h5{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-right: 107px;
+    margin-bottom: 16px;
+}
+.footer-social img{
+    margin-right: 16px;
+}
+
 .footer-down hr{
     width: 1px solid #D9D9D9;
 }
