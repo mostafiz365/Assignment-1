@@ -19,6 +19,9 @@
     cursor: pointer;
     font-weight: 600;
 }
+.btn:hover{
+    background-color: #5fb3a2;
+}
 /* main css */
 nav{
     width: 85%;
@@ -55,6 +58,10 @@ nav ul a{
     padding: 8px 12px;
     margin-bottom: 16px;
 }
+.banner-content .btn-2:hover{
+    background-color: #dddddd;
+}
+
 
 .banner-content h1{
     max-width: 770px;
@@ -85,7 +92,9 @@ nav ul a{
     cursor: pointer;
     font-weight: 600;
 }
-
+#banner .btn-3:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+}
 #card{
     padding: 120px 120px;
 }
