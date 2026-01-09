@@ -173,3 +173,33 @@ nav ul a{
     margin-bottom: 16px;
     
 }
+
+#early-access{
+    padding: 0 120px 120px;
+    text-align: center;
+
+}
+#early-access .early-access-container{
+    background-color: #F7F6F2;
+    padding: 80px 40px;
+    border-radius: 12px;
+}
+
+.early-access-container h3{
+    font-size: 40px;
+    font-weight: 700;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.early-access-container .first{
+    font-size: 16px;
+    line-height: 24px;
+    color: #627382;
+    margin-bottom: 24px;
+}
+.early-access-container .second{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-top: 16px;
+}
