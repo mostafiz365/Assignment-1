@@ -203,3 +203,25 @@ nav ul a{
     color: #627382;
     margin-top: 16px;
 }
+
+footer{
+    background-color: #001931;
+    padding: 120px 120px 30px;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+
+}
+
+.footer-down p{
+    margin-top: 30px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FAFAFA;
+    text-align: center;
+}
+.footer-down hr{
+    width: 1px solid #D9D9D9;
+}
